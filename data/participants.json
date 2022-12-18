@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "name" : "Sonali Gupta",
+       "imageurl" : "contestant/avatar.jpg",
+       "about" : "Hello I'm a web developer",
+       "college" : "Indian Institute of Information Technology, Allahabad",
+       "facebook" : "",
+       "github" : "https://github.com/sona-123",
+       "twitter" : "https://twitter.com/Sonali3556",
+       "referral" : "College"
+      }
+]
