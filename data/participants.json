@@ -1,1 +1,11 @@
-[]
+{
+
+       "name" : "Piyush Gawade",
+       "imageurl" : "https://avatars.githubusercontent.com/PiyushGG18",
+       "about" : "Hello I'm a web developer",
+       "college" : "IIIT Allahabad",
+       "facebook" : "url",
+       "github" : "url",
+       "twitter" : "url",
+       "referral" : "OpenCode Hackathon"
+    }
