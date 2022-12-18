@@ -1,1 +1,10 @@
-[]
+{
+      "name" : "Ananya",
+       "imageurl" : "https://github.com/ananyaa07.png",
+       "about" : "Hello I'm a web developer and I am interested in UI/UX designing",
+       "college" : "Indian Institute of Information Technology, Allahabad",
+       "facebook" : "https://www.facebook.com/ananyaaa07/",
+       "github" : "https://github.com/ananyaa07",
+       "twitter" : "https://twitter.com/Ananya220791",
+       "referral" : "I got to know about opencode through social media handles"
+}
