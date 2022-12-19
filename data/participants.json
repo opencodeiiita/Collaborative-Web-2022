@@ -1,1 +1,11 @@
-[]
+[ {
+
+       "name" : "Karishma Mitra",
+       "imageurl" : "contestant/avatar.jpg",
+       "about" : "Hello I'm a web developer",
+       "college" : "IIITA",
+       "facebook" : "",
+       "github" : "",
+       "twitter" : "",
+       "referral" : "NA"
+    }]
