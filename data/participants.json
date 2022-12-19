@@ -1,1 +1,12 @@
-[]
+[
+  {
+     "name" : "Akshat Singh",
+      "imageurl" : "https://avatars.githubusercontent.com/u/97425169?s=460&v=4",
+      "about" : "Hello I'm a coder",
+      "college" : "IIITA",
+      "facebook" : "https://www.facebook.com/profile.php?id=100006246903394",
+      "github" : "https://github.com/akshatsgh",
+      "twitter" : "url",
+      "referral" : "Tanmay Garg & Pavitra Pandey :)"
+  }
+]
