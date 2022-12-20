@@ -1,4 +1,15 @@
+
 [
+  {
+    "name" : "Ribhav Bansal",
+    "imageurl" : "https://github.com/RibhavBansal.png",
+    "about" : "Hello I'm a app developer and I am interested in any kotlin project",
+    "college" : "Indian Institute of Information Technology, Allahabad",
+    "facebook" : "https://www.facebook.com/Ribhav Bansal/",
+    "github" : "https://github.com/RibhavBansal",
+    "twitter" : "https://twitter.com/_R_Bansal",
+    "referral" : "I got to know about opencode through our college seniors"
+  },
   {
     "name": "Atif Moin",
     "imageurl": "",
