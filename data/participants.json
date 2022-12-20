@@ -29,6 +29,18 @@
     "twitter": "",
     "referral": ""
   },
+
+  {
+
+     "name" : "Akshat Singh",
+      "imageurl" : "https://avatars.githubusercontent.com/u/97425169?s=460&v=4",
+      "about" : "Hello I'm a coder",
+      "college" : "IIITA",
+      "facebook" : "https://www.facebook.com/profile.php?id=100006246903394",
+      "github" : "https://github.com/akshatsgh",
+      "twitter" : "",
+      "referral" : "Tanmay Garg & Pavitra Pandey :)"
+},
     {
         "name": "Ribhav Bansal",
         "imageurl": "https://github.com/RibhavBansal.png",
@@ -98,5 +110,26 @@
         "github" : "https://github.com/GammaMicrowave",
         "twitter" : "",
         "referral" : "A batchmate named Anurag Jain"
-    }
+    },
+    {
+
+        "name" : "Aastha",
+        "imageurl" : "https://avatars.githubusercontent.com/u/97506205?v=4",
+        "about" : "Hello I'm an amateur game developer",
+        "college" : "IIIT Allahabad",
+        "facebook" : "",
+        "github" : "https://github.com/aasthaaaa7",
+        "twitter" : "",
+        "referral" : "batchmates"
+     },
+     {
+        "name": "Abhinav Anand",
+        "imageurl": "IMG20221211030521.jpg",
+        "about": "Hi I am an App developer!",
+        "college": "Indian Institute Of Information Technology,Allahabad",
+        "facebook": "https://www.facebook.com/people/Abhinav-Anand/100012290163267/?mibextid=ZbWKwL",
+        "github": "https://github.com/IEC2021103Abhinav",
+        "twitter": "https://twitter.com/ABHINAV5152?t=ZQpqXhtzbTvdNvwloPQtzg&s=09",
+        "referral": "Seniors"
+     }
 ]
