@@ -1,4 +1,4 @@
-# [Opencode Collaborative 2021](https://opencodeiiita.github.io/)
+# [Opencode Collaborative 2022](https://opencodeiiita.github.io/)
 
 ![Opencode](https://github.com/opencodeiiita/Opencode-Collaborative-19/raw/master/assets/img/opencode-banner.jpg)
 
