@@ -79,5 +79,15 @@
         "github" : "https://github.com/aasthaaaa7",
         "twitter" : "",
         "referral" : "batchmates"
+     },
+     {
+        "name": "Abhinav Anand",
+        "imageurl": "IMG20221211030521.jpg",
+        "about": "Hi I am an App developer!",
+        "college": "Indian Institute Of Information Technology,Allahabad",
+        "facebook": "https://www.facebook.com/people/Abhinav-Anand/100012290163267/?mibextid=ZbWKwL",
+        "github": "https://github.com/IEC2021103Abhinav",
+        "twitter": "https://twitter.com/ABHINAV5152?t=ZQpqXhtzbTvdNvwloPQtzg&s=09",
+        "referral": "Seniors"
      }
 ]
