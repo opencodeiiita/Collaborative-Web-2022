@@ -48,5 +48,15 @@
         "github": "https://github.com/VBajaj113",
         "twitter": "",
         "referral": ""
+    },
+    {
+        "name" : "Gaurav Sahay",
+        "imageurl" : "https://avatars.githubusercontent.com/u/97462628?s=400&v=4",
+        "about" : "Hello I'm an Web developer",
+        "college" : "IIIT Allahabad",
+        "facebook" : "https://www.facebook.com/profile.php?id=100009084164964&mibextid=ZbWKwL",
+        "github" : "https://github.com/gauravsahay007",
+        "twitter" : "https://twitter.com/gaurav__sahay",
+        "referral" : "Open Code"
     }
 ]
