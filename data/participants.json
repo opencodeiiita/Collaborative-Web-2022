@@ -118,6 +118,15 @@
     "github" : "https://github.com/ananyaa07",
     "twitter" : "https://twitter.com/Ananya220791",
     "referral" : "I got to know about opencode through social media handles"
-  }
+  },
+  {
+    "name" : "Vishesh Vijayvargiya",
+    "imageurl" : "https://github.com/Vishesh-Vijay.png",
+    "about" : "Hello I'm a web developer",
+    "college" : "IIIT Allahabad",
+    "facebook" : "https://www.facebook.com/vishesh.vijayvargiya.7 ",
+    "github" : "https://github.com/Vishesh-Vijay",
+    "twitter" : "",
+    "referral" : "Geekhaven"
+    }
 ]
-
