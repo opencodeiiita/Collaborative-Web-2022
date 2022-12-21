@@ -50,6 +50,7 @@
     "referral": ""
   },
   {
+
     "name": "Shubhankit Pandey",
     "imageurl": "https://avatars.githubusercontent.com/u/97404864?s=400&u=04314ba46d79cca2f1075a71b3c0e353e452cb6a&v=4",
     "about": "Hello I'm an app developer with a zeal to learn more.",
@@ -168,6 +169,16 @@
     "github" : "https://github.com/anshgeez31",
     "twitter" : "https://twitter.com/AnshKothari6",
     "referral" : "OpenCode"
+   },
+  {
+    "name" : "Vishal Ola",
+    "imageurl" : "https://avatars.githubusercontent.com/vishalola",
+    "about" : "I Code",
+    "college" : "IIITA",
+    "facebook" : "",
+    "github" : "https://github.com/vishalola",
+    "twitter" : "",
+    "referral" : "Anurag Jain & Manas Gupta <3."
    }
 ]
 
