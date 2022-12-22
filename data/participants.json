@@ -212,6 +212,16 @@
     "github" : "https://github.com/bhumi-cka",
     "twitter" : "",
     "referral" : "Institute email"
+  },
+  {
+    "name": "Sanyam Agrawal",
+    "imageurl": "https://avatars.githubusercontent.com/u/97019699?v=4",
+    "about": "Backend Web Developer",
+    "college": "IIIT Allahabad",
+    "facebook": "https://www.facebook.com/profile.php?id=100010048967800",
+    "github": "https://github.com/SanyamAgrawal07",
+    "twitter": "",
+    "referral": "GH batchmates"
   }
 ]
 
