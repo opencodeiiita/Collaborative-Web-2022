@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Collaborative-Web-2022",
+        "description": "Opencode'22 Collaborative website!",
+        "repo-url": "https://github.com/opencodeiiita/Collaborative-Web-2022/"
+    },
+    {
+        "name": "Code-Digger",
+        "description": "coding repo which contains tasks related to competitive coding, DSA",
+        "repo-url": "https://github.com/opencodeiiita/Code-Digger"
+    },
+    {
+        "name": "Leaderboard",
+        "description": "Opencode'22 live leaderboard for contributors",
+        "repo-url": "https://github.com/opencodeiiita/Leaderboard"
+    },
+    {
+        "name": "DonateASmile",
+        "description": "Opencode'22 UI/UX design for philanthropic app",
+        "repo-url": "https://github.com/opencodeiiita/DonateASmile"
+    },
+    {
+        "name": "EmotionalAnalysis",
+        "description": "working on dataset with text and the emotions detected in those texts",
+        "repo-url": "https://github.com/opencodeiiita/EmotionAnalysis"
+    },
+    {
+        "name": "Aloha",
+        "description": "An Opencode'22 Repository with tasks only for Freshies at IIITA.",
+        "repo-url": "https://github.com/opencodeiiita/Aloha"
+    },
+    {
+        "name": "GoGit-2.0",
+        "description": "A project to learn the basics of Git and GitHub.",
+        "repo-url": "https://github.com/opencodeiiita/GoGit-2.0"
+    },
+    {
+        "name": "Fitezo",
+        "description": "A Flutter based fitness app solely focused on fitness related solutions.",
+        "repo-url": "https://github.com/opencodeiiita/Fitezo"
+    },
+    {
+        "name": "ZoombieMania",
+        "description": "A 3d zombie survival shooter game made with Unity Engine",
+        "repo-url": "https://github.com/opencodeiiita/ZoombieMania-"
+    },
+    {
+        "name": "HandsForHunger",
+        "description": "A Flutter based application to connect NGO's to the potential donors.",
+        "repo-url": "https://github.com/opencodeiiita/HandsForHunger"
+    },
+    {
+        "name": "SuperQuizzer",
+        "description": "Test your knowledge at the speed of thought with this Kotlin based quiz taking application",
+        "repo-url": "https://github.com/opencodeiiita/SuperQuizzer"
+    },
+    {
+        "name": "CampusOLX",
+        "description": "An Imperative Web Design Repository",
+        "repo-url": "https://github.com/opencodeiiita/CampusOLX"
+    },
+    {
+        "name": "Lets-Design-3.0",
+        "description": "contains tasks related to various aspects of Graphic Designing",
+        "repo-url": "https://github.com/opencodeiiita/Lets-Design-3.0"
+    },
+    {
+        "name": "Cyber-War",
+        "description": "Tasks are designed in the field of Cyber Security",
+        "repo-url": "https://github.com/opencodeiiita/Cyber-War"
+    },
+    {
+        "name": "WorkWise",
+        "description": "WorkWise is a productivity app that helps users stay focused, manage their work, and improve efficiency.",
+        "repo-url": "https://github.com/opencodeiiita/WorkWise"
+    },
+    {
+        "name": "SolMintNFT",
+        "description": "A Solana blockchain based generative NFT marketplace.",
+        "repo-url": "https://github.com/opencodeiiita/SolMintNFT"
+    },
+    {
+        "name": "Learning-Smart-Contracts",
+        "description": "an archive of smart contracts written primarily in Solidity.",
+        "repo-url": "https://github.com/opencodeiiita/Learning-Smart-Contracts"
+    },
+    {
+        "name": "Forum-Backend",
+        "description": "A discussion forum designed for the students of IIITA to ask questions, share their experiences and to know what their peeps are up to",
+        "repo-url": "https://github.com/opencodeiiita/Forum-Backend"
+    },
+    {
+        "name": "Forum-Frontend-Web",
+        "description": "The frontend repository for the Forum Web App designed for the students of IIITA to ask questions, doubts and share their experiences",
+        "repo-url": "https://github.com/opencodeiiita/Forum-Frontend-Web"
+    },
+    {
+        "name": "OC-discord-bot",
+        "description": "A self-hosted discord bot based on python library, discord.py.",
+        "repo-url": "https://github.com/opencodeiiita/OC-discord-bot"
+    },
+    {
+        "name": "SaveMyForm-Backend",
+        "description": "Backend for the project SaveMyForm. Backend Less form submission collection for your application",
+        "repo-url": "https://github.com/opencodeiiita/SaveMyForm-Backend"
+    },
+    {
+        "name": "SaveMyForm-Frontend",
+        "description": "Frontend for the project SaveMyForm. Backend Less form submission collection for your application",
+        "repo-url": "https://github.com/opencodeiiita/SaveMyForm-Frontend"
+    }
+]
