@@ -238,7 +238,7 @@
     "github": "https://github.com/TheDivineAurora",
     "twitter": "",
     "referral": "Open Code"
-  }
+  },
   {
     "name": "Aman Kumar",
     "imageurl": "https://avatars.githubusercontent.com/u/96721448?s=400&v=4",
@@ -278,5 +278,15 @@
     "github": "https://github.com/bhumika-kalaru",
     "twitter": "",
     "referral": "College Mail"
+  },
+  {
+    "name": "Sonal Kumari",
+    "imageurl": "https://avatars.githubusercontent.com/u/115936469?s=400&u=63698b2fc60559be8e5328cbe59caf6a27646f26&v=4",
+    "about": "Hello I'm a web developer",
+    "college": "REC Azamgarh",
+    "facebook": "",
+    "github": "https://github.com/Sonalkri2004",
+    "twitter": "",
+    "referral": "IIIT student"
   }
 ]
