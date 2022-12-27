@@ -84,20 +84,19 @@ body.toggled > #tiles > .tile:hover {
 }
 .second-page {
   /* background-color: green; */
-  background-image: linear-gradient(180deg,#00ff0000,#00ff00ff);
+  background-image: linear-gradient(180deg, #00ff0000, #00ff00ff);
   opacity: 50%;
   height: 100vh;
   width: 100vw;
-  
 }
 .third-page {
-  background-image: linear-gradient(180deg,#00ff00ff,#ff0000ff);
+  background-image: linear-gradient(180deg, #00ff00ff, #ff0000ff);
   opacity: 50%;
   height: 100vh;
   width: 100vw;
 }
 .fourth-page {
-  background-image: linear-gradient(180deg,#ff0000ff,#0000ffff);
+  background-image: linear-gradient(180deg, #ff0000ff, #0000ffff);
   opacity: 50%;
   height: 100vh;
   width: 100vw;
@@ -148,20 +147,23 @@ body.toggled > #tiles > .tile:hover {
   position: absolute;
   left: 60px;
   min-width: 500px;
-  top: 16px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .text {
   position: absolute;
-  bottom: 35%;
-  left: 700px;
+  bottom: 45%;
+  left: 50%;
   width: 40%;
   min-width: 360px;
 }
 .geekHavenLogo {
   position: absolute;
-  top: 100px;
-  left: 820px;
-  width: 15%;
+  top: 2%;
+  left: auto;
+  right: 2%;
+  width: 10%;
+  /* background-color: red; */
 }
 .presentsText {
   position: absolute;
@@ -186,7 +188,8 @@ body.toggled > #tiles > .tile:hover {
     min-width: 300px;
     width: 90%;
     left: 50%;
-    transform: translateX(-50%);
+    top: 16px;
+    transform: translate(-50%, 0);
   }
   .lowerHeroPage {
     width: 90%;
@@ -204,13 +207,14 @@ body.toggled > #tiles > .tile:hover {
   }
   .geekHavenLogo {
     left: auto;
-    right: 5%;
-    top: 0;
+    right: 2%;
+    top: 2%;
     width: 10%;
   }
   .logo {
     left: 50%;
-    transform: translateX(-50%);
+    top: 16px;
+    transform: translate(-50%, 0);
   }
   .text {
     left: 50%;
