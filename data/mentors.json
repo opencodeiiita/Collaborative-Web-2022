@@ -110,5 +110,37 @@
     "facebook": "https://www.facebook.com/profile.php?id=100008878575657",
     "github": "https://github.com/Himanshu276330",
     "twitter": "https://twitter.com/shekharh433"
-  }
+  },
+  {
+    "name": "Deepak Verma",
+    "imageurl": "https://avatars.githubusercontent.com/BeeUnknown",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/profile.php?id=100029826365084",
+    "github": "https://github.com/BeeUnknown",
+    "twitter": "https://twitter.com/_DeepakVerma_"
+  },
+  {
+    "name": "Keshav Gupta",
+    "imageurl": "https://avatars.githubusercontent.com/keshav-guptaa",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/profile.php?id=100004516397751",
+    "github": "https://github.com/keshav-guptaa",
+    "twitter": "https://twitter.com/iamkeshavguptaa?t=YmkLNP7xhkpTQopo7Fopkw&s=09"
+  },
+  {
+    "name": "Atharv Badgujar",
+    "imageurl": "https://avatars.githubusercontent.com/Atharv23m",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/atharv.badgujar.5/",
+    "github": "https://github.com/Atharv23m",
+    "twitter": "https://twitter.com/ABadguj"
+  },
+  {
+      "name": "Sibasish Behera",
+      "imageurl": "https://avatars.githubusercontent.com/u/95071627?s=40&v=4",
+      "about": "Mentor",
+      "facebook": "https://www.facebook.com/profile.php?id=100075127504015",
+      "github": "https://github.com/TheRealSibasishBehera",
+      "twitter": "https://twitter.com/FangedHamster"
+    }
 ]
