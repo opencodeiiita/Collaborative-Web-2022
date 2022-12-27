@@ -20,7 +20,7 @@ body {
   background: linear-gradient(to right, var(--g1), var(--g2), var(--g1));
   background-size: 200%;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   margin: 0px;
 }
 
@@ -83,7 +83,22 @@ body.toggled > #tiles > .tile:hover {
   z-index: 1;
 }
 .second-page {
-  background-color: green;
+  /* background-color: green; */
+  background-image: linear-gradient(180deg,#00ff0000,#00ff00ff);
+  opacity: 50%;
+  height: 100vh;
+  width: 100vw;
+  
+}
+.third-page {
+  background-image: linear-gradient(180deg,#00ff00ff,#ff0000ff);
+  opacity: 50%;
+  height: 100vh;
+  width: 100vw;
+}
+.fourth-page {
+  background-image: linear-gradient(180deg,#ff0000ff,#0000ffff);
+  opacity: 50%;
   height: 100vh;
   width: 100vw;
 }
@@ -93,10 +108,8 @@ body.toggled > #tiles > .tile:hover {
   left: 0;
   height: 100vh;
   width: 100vw;
-  /* background-color: red; */
   z-index: 3;
   opacity: 1;
-  /* 1 */
   filter: drop-shadow(0px 0px 10px blue);
   transition: opacity 1200ms ease;
   pointer-events: none;
@@ -104,22 +117,16 @@ body.toggled > #tiles > .tile:hover {
 
 .lowerHeroPage {
   height: fit-content;
-  /* width: 80%; */
-  /* min-width: 500px; */
-  /* max-width: 800px; */
   width: 500px;
   background-color: rgb(15, 15, 15);
   z-index: 1;
   opacity: 0;
-  /* 1,0 */
   transition: opacity 1200ms ease;
   border-radius: 16px;
   border: 2px solid cyan;
 }
 .heroPageTitle {
   font-weight: 700;
-  /* background-color: red; */
-  /* height: 200px; */
   font-size: 3rem;
   color: cyan;
   padding-left: 16px;
@@ -131,7 +138,6 @@ body.toggled > #tiles > .tile:hover {
 .heroPageList {
   font-weight: 400;
   font-size: 1.5rem;
-  /* background-color: blue; */
   color: cyan;
   text-align: justify;
   padding-right: 32px;
@@ -140,30 +146,24 @@ body.toggled > #tiles > .tile:hover {
   width: 37%;
   height: 80%;
   position: absolute;
-  /* height: 400px; */
-  /* width: 400px; */
   left: 60px;
   min-width: 500px;
   top: 16px;
-  /* background-color: red; */
 }
 .text {
   position: absolute;
-  /* bottom: 32px; */
   bottom: 35%;
-  /* right: 16px; */
   left: 700px;
-  /* background-color: red; */
   width: 40%;
   min-width: 360px;
 }
 .geekHavenLogo {
   position: absolute;
-  top: 60px;
-  left: 700px;
+  top: 100px;
+  left: 820px;
+  width: 15%;
 }
 .presentsText {
-  /* background-color: red; */
   position: absolute;
   height: 300px;
   width: 300px;
@@ -171,7 +171,7 @@ body.toggled > #tiles > .tile:hover {
   font-weight: 700;
   font-size: 3rem;
   color: cyan;
-  left: 950px;
+  left: 850px;
   top: 42%;
 }
 
@@ -192,7 +192,6 @@ body.toggled > #tiles > .tile:hover {
     width: 90%;
   }
   .heroPageList {
-    /* list-style: none; */
     padding-left: 30px;
     padding-right: 12px;
 
@@ -207,7 +206,6 @@ body.toggled > #tiles > .tile:hover {
     left: auto;
     right: 5%;
     top: 0;
-    /* height: 40%; */
     width: 10%;
   }
   .logo {
@@ -222,24 +220,33 @@ body.toggled > #tiles > .tile:hover {
 }
 
 /* footer section */
+
 footer {
+  /* display: none; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* left: 0; */
   margin-top: auto;
   height: 100px;
-  background-color: #e2e4e7;
-  color: #fff;
+  /* background-color: #e2e4e7; */
+  background-color: rgb(15, 15, 15);
+  /* color: #fff; */
+  color: cyan;
   padding-left: 13%;
   padding-right: 15%;
   padding-top: 1%;
   padding-bottom: 1%;
+  /* filter: drop-shadow(0 0 10 cyan); */
 }
 
 .container-logo {
   display: flex;
   align-items: center;
   margin: 0 20px;
+  /* background-color: cyan; */
 }
 
 .container-logo img {
@@ -259,7 +266,8 @@ footer {
 }
 
 .links-container a {
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
+  color: cyan;
   font-size: 29px;
   margin: 0 10px;
 }
@@ -309,7 +317,8 @@ footer {
   }
 
   .links-container a {
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
+    color: cyan;
     font-size: 20px;
     margin: 0 5px;
   }
