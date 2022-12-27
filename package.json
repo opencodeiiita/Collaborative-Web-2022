@@ -1,0 +1,23 @@
+{
+  "name": "collaborative-web-2022",
+  "version": "1.0.0",
+  "description": "![Opencode](https://github.com/opencodeiiita/Opencode-Collaborative-19/raw/master/assets/img/opencode-banner.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GammaMicrowave/Collaborative-Web-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GammaMicrowave/Collaborative-Web-2022/issues"
+  },
+  "homepage": "https://github.com/GammaMicrowave/Collaborative-Web-2022#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
