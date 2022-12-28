@@ -23,6 +23,14 @@
     "github": "https://github.com/ABHAY0O7",
     "twitter": "https://twitter.com/AbhaySi78950085"
   },
+    {
+    "name": "Shashwat Mittal",
+    "imageurl": "https://avatars.githubusercontent.com/u/74846797?v=4",
+    "about": "Organiser",
+    "facebook": "https://www.facebook.com/shashwat.mittal.5/",
+    "github": "https://github.com/shashwat-mittal",
+    "twitter": "https://twitter.com/mittal_shashwat"
+  },
   {
     "name": "Anurag Jain",
     "imageurl": "https://avatars.githubusercontent.com/u/76420937?v=4",
@@ -30,6 +38,14 @@
     "facebook": "https://www.facebook.com/anurag.jain.7549185",
     "github": "https://github.com/BuddyLongLegs",
     "twitter": "https://twitter.com/AnuragJ46055219"
+  },
+  {
+    "name": "Manas Gupta",
+    "imageurl": "https://avatars.githubusercontent.com/u/90680751?v=4",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/manas.gupta.165685",
+    "github": "https://github.com/Manas2403",
+    "twitter": "https://twitter.com/ManasMG24"
   },
     {
     "name": "Suhail Ahmad Khan",
@@ -142,5 +158,29 @@
       "facebook": "https://www.facebook.com/profile.php?id=100075127504015",
       "github": "https://github.com/TheRealSibasishBehera",
       "twitter": "https://twitter.com/FangedHamster"
-    }
+    },
+  {
+    "name": "Aditya Kumar Rai",
+    "imageurl": "https://avatars.githubusercontent.com/u/97426655?s=400&u=c7dda19b30a7734b99b392d10c6ff405cb7d0f3f&v=4",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/adityar.rai.7/",
+    "github": "https://github.com/Adi-R12",
+    "twitter": "https://twitter.com/AdityaR67540711"
+  },
+  {
+    "name": "Saishree Kouda",
+    "imageurl": "https://avatars.githubusercontent.com/Saishreekouda",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/profile.php?id=100075937489154",
+    "github": "https://github.com/Saishreekouda",
+    "twitter": "https://twitter.com/SaishreeKouda"
+  },
+    {
+    "name": "Prakriti Vashishtha",
+    "imageurl": "https://avatars.githubusercontent.com/Prakriti-19",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/profile.php?id=100076844967750",
+    "github": "https://github.com/Prakriti-19",
+    "twitter": "https://twitter.com/Prakriti_193"
+  }
 ]
