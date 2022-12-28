@@ -103,22 +103,22 @@ We will follow the official GitHub documentation for setting up the repo.
 To install Node.js on your local machine, follow these steps:
 
 - Download the Node.js installer from the official website.
-  
 - Run the installer and follow the prompts to complete the installation.
-  
-- To verify that Node.js has been successfully installed, open a terminal window and type node -v. This should print the current version of Node.js that you have installed.
+- To verify that Node.js has been successfully installed, open a terminal window and type `node -v`. This should print the current version of Node.js that you have installed.
 
 
 ### Running the project
 
-- Clone the repository to your local machine using git clone https://github.com/[USERNAME]/[REPO_NAME].git.
-  
-- Navigate to the root directory of the repository using cd [REPO_NAME].
-  
-- Install the necessary npm packages by running npm install. This will install all of the packages listed in the dependencies section of the package.json file.
-  
-- Run the project using npm start. This will start the application and should display a message in the terminal indicating that the server is running.
-  
+- Clone the repository to your local machine using 
+`git clone https://github.com/[USERNAME]/[REPO_NAME].git`
+- Navigate to the root directory of the repository using 
+`cd [REPO_NAME]`
+- Install the necessary npm packages by running 
+`npm install`. 
+This will install all of the packages listed in the dependencies section of the package.json file.
+- Run the project using 
+`npm start`. 
+This will start the application and should display a message in the terminal indicating that the server is running.
 - Control click on the link which the terminal will provide you to view your site.
   
 
