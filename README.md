@@ -119,7 +119,7 @@ To install Node.js on your local machine, follow these steps:
   
 - Run the project using npm start. This will start the application and should display a message in the terminal indicating that the server is running.
   
-- Open a web browser and navigate to http://localhost:3000 to view the application.
+- Control click on the link which the terminal will provide you to view your site.
   
 
 ## Guidelines and Best practices
