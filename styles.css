@@ -12,7 +12,7 @@ html {
   outline: none;
   background-color: #00ffff;
   cursor: pointer;
-  padding: 10px 3px;
+  padding: 5px 2px;
   border-radius: 10%;
   transition: 0.3s;
 }
@@ -245,6 +245,111 @@ body.toggled > #tiles > .tile:hover {
   }
 }
 
+
+/* About section */
+.about-section{
+	width: 100%;
+	min-height: 80vh;
+	background-color: rgb(255, 255, 255);
+}
+
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+  
+  
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: 'Poppins';
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:8px 24px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #575151;
+	color:#fff;
+}
+
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+  text-align: center;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+ 
+}
+.about-section{
+  min-height: 90vh;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+
+
+}
+
+
+
+
 /* footer section */
 
 footer {
@@ -303,12 +408,12 @@ footer {
 }
 
 .copyright {
-  color: black;
+  color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   margin-top: auto;
 }
-.text {
+.text1 {
   margin-top: 15px;
 }
 
@@ -347,6 +452,11 @@ footer {
     color: cyan;
     font-size: 20px;
     margin: 0 5px;
+  }
+  #myBtn {
+    
+    bottom: 91px;
+    
   }
 
   .container-logo {
