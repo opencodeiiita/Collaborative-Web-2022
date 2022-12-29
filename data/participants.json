@@ -298,5 +298,15 @@
     "github": "https://github.com/Karansenpai",
     "twitter": "",
     "referral": "Open code"
-  }
+  },
+  {
+    "name" : "Atul B Raj",
+    "imageurl" : "https://www.bing.com/images/search?view=detailV2&ccid=RDC0ruHP&id=513A3FECC06BC6AE3A6F0959C7B7E8750BAEF2CF&thid=OIP.RDC0ruHPjacNSHz6tMmw4gHaD2&mediaurl=https%3a%2f%2fi.imgflip.com%2f31as7b.png&exph=277&expw=533&q=mai+nahi+bataunga+meme&simid=607991932984100663&FORM=IRPRST&ck=1057B4A9E2F584478E8A657F2345FC2E&selectedIndex=0&ajaxhist=0&ajaxserp=0",
+    "about" : "Hello I'm a web developer",
+    "college" : "IIIT Alahabad",
+    "facebook" : "disabled",
+    "github" : "https://github.com/atulbraj",
+    "twitter" : "",
+    "referral" : "Mail"
+ }
 ]
