@@ -69,6 +69,49 @@ body.toggled > #tiles > .tile:hover {
   transform: translate(-50%, -50%);
 }
 
+.main-tittle {
+  text-align: center;
+  color: white;
+  height: 150px;
+  font-size: 50px;
+}
+
+.mentor {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+text-align: center;
+}
+
+.row {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+text-align: center;
+}
+
+.mentor_info {
+background: white;
+margin: 7px;
+margin-bottom: 45px;
+padding: 25px;
+line-height: 8px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap;
+text-align: center;
+}
+
+img.avatar {
+height: 195px;
+border-radius: 20px;
+}
+
+
 #tiles {
   height: calc(100vh - 1px);
   width: calc(100vw - 1px);
