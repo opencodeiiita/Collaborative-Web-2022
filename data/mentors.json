@@ -158,7 +158,7 @@
       "facebook": "https://www.facebook.com/profile.php?id=100075127504015",
       "github": "https://github.com/TheRealSibasishBehera",
       "twitter": "https://twitter.com/FangedHamster"
-    },
+  },
   {
     "name": "Aditya Kumar Rai",
     "imageurl": "https://avatars.githubusercontent.com/u/97426655?s=400&u=c7dda19b30a7734b99b392d10c6ff405cb7d0f3f&v=4",
@@ -182,5 +182,13 @@
     "facebook": "https://www.facebook.com/profile.php?id=100076844967750",
     "github": "https://github.com/Prakriti-19",
     "twitter": "https://twitter.com/Prakriti_193"
+  },
+   {
+    "name": "Atharva Gadekar",
+    "imageurl": "https://avatars.githubusercontent.com/atharva-gadekar",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/atharva.gadekar.94",
+    "github": "https://github.com/atharva-gadekar",
+    "twitter": "https://twitter.com/AtharvaGadekar6"
   }
 ]
