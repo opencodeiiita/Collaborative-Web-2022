@@ -140,12 +140,13 @@ body.toggled > #tiles > .tile:hover {
   height: fit-content;
   width: 500px;
   background-color: rgb(15, 15, 15);
-  z-index: 1;
+  z-index: -1;
   opacity: 0;
   transition: opacity 1200ms ease;
   border-radius: 16px;
   border: 2px solid cyan;
 }
+
 .heroPageTitle {
   font-weight: 700;
   font-size: 3rem;
@@ -156,6 +157,7 @@ body.toggled > #tiles > .tile:hover {
   border-radius: 16px 16px 0 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .heroPageList {
   font-weight: 400;
   font-size: 1.5rem;
@@ -163,6 +165,7 @@ body.toggled > #tiles > .tile:hover {
   text-align: justify;
   padding-right: 32px;
 }
+
 .logo {
   width: 37%;
   height: 80%;
@@ -172,6 +175,7 @@ body.toggled > #tiles > .tile:hover {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .text {
   position: absolute;
   bottom: 45%;
