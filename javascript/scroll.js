@@ -10,6 +10,10 @@ function scrollFunction() {
   }
 }
 function topFunction() {
+  document.body.classList.remove("toggled");
+  document.querySelectorAll(".tile").forEach((tile) => {
+    tile.style.opacity = 1;
+  });
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
