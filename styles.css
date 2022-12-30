@@ -15,6 +15,8 @@ html {
   padding: 5px 2px;
   border-radius: 10%;
   transition: 0.3s;
+  width: 60px;
+  height: 70px;
 }
 #myBtn:hover {
   transform: scale(1.1);
@@ -76,7 +78,6 @@ body.toggled > #tiles > .tile:hover {
   font-size: 50px;
 }
 
-
 #mentors_cards {
   display: flex;
   flex-wrap: wrap;
@@ -86,15 +87,14 @@ body.toggled > #tiles > .tile:hover {
 
 .mentor_card {
   background: rgb(234 237 255);
-    margin: 7px 7px 45px;
-    padding: 15px;
-    line-height: 8px;
-    border-radius: 20px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    text-align: center;
-  
+  margin: 7px 7px 45px;
+  padding: 15px;
+  line-height: 8px;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .mentor_card:hover {
@@ -106,9 +106,9 @@ h2.mentorName {
   color: #000000;
 }
 
-.imgDiv{
+.imgDiv {
   height: 195px;
-border-radius: 20px;
+  border-radius: 20px;
   height: 233px;
   border-radius: 20px;
   overflow: hidden;
@@ -116,13 +116,13 @@ border-radius: 20px;
   justify-content: center;
 }
 
-.icon{
+.icon {
   color: #3d3d3d;
 }
 
-.icon:hover{
+.icon:hover {
   transform: translateY(-5px);
-    color:#9370DB;
+  color: #9370db;
 }
 
 .logoDiv {
@@ -310,108 +310,61 @@ border-radius: 20px;
   }
 }
 
-
 /* About section */
-.about-section{
-	width: 100%;
-	min-height: 80vh;
-	background-color: rgb(255, 255, 255);
+.about-section {
+  width: 100%;
+  min-height: 80vh;
+  background-color: rgb(255, 255, 255);
 }
 
-.container{
-	width: 80%;
-	display: block;
-	margin:auto;
-	padding-top: 100px;
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
 }
-.content-section{
-	float: left;
-	width: 55%;
+.content-section {
+  float: left;
+  width: 55%;
 }
-.image-section{
-	float: right;
-	width: 40%;
+.image-section {
+  float: right;
+  width: 40%;
 }
-.image-section img{
-	width: 100%;
-	height: auto;
+.image-section img {
+  width: 100%;
+  height: auto;
 }
-.content-section .title{
-	text-transform: uppercase;
-	font-size: 28px;
-  
-  
+.content-section .title {
+  text-transform: uppercase;
+  font-size: 28px;
 }
-.content-section .content h3{
-	margin-top: 20px;
-	color:#5d5d5d;
-	font-size: 21px;
+.content-section .content h3 {
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 21px;
 }
-.content-section .content p{
-	margin-top: 10px;
-	font-family: 'Poppins';
-	font-size: 18px;
-	line-height: 1.5;
+.content-section .content p {
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 1.5;
 }
-.content-section .content .button{
-	margin-top: 30px;
+.content-section .content .button {
+  margin-top: 30px;
 }
-.content-section .content .button a{
-	background-color: #3d3d3d;
-	padding:8px 24px;
-	text-decoration: none;
-	color:#fff;
-	font-size: 25px;
-	letter-spacing: 1.5px;
+.content-section .content .button a {
+  background-color: #3d3d3d;
+  padding: 8px 24px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px;
 }
-.content-section .content .button a:hover{
-	background-color: #575151;
-	color:#fff;
+.content-section .content .button a:hover {
+  background-color: #575151;
+  color: #fff;
 }
-
-@media screen and (max-width: 768px){
-	.container{
-	width: 80%;
-	display: block;
-	margin:auto;
-	padding-top:50px;
-}
-.content-section{
-	float:none;
-	width:100%;
-	display: block;
-	margin:auto;
-  text-align: center;
-}
-.image-section{
-	float:none;
-	width:100%;
-	
-}
-.image-section img{
-	width: 100%;
-	height: auto;
-	display: block;
-	margin:auto;
-}
-.content-section .title{
-	text-align: center;
-	font-size: 19px;
-}
-.content-section .content .button{
-	text-align: center;
- 
-}
-.about-section{
-  min-height: 90vh;
-}
-.content-section .content .button a{
-	padding:9px 30px;
-}
-
-
-}
-
 
 /* footer section */
 
@@ -457,6 +410,7 @@ footer {
 .links-container {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .links-container a {
@@ -471,55 +425,45 @@ footer {
 }
 
 .copyright {
-  color: rgb(255, 255, 255);
+  color: white;
   display: flex;
+  margin-top: 20px;
   align-items: center;
-  margin-top: auto;
+  justify-content: center;
 }
 .text1 {
   margin-top: 15px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   footer {
     flex-direction: column;
     height: auto;
-  }
-
-  .container-logo {
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px;
-  }
-
-  .container-logo img {
-    height: 40px;
-    margin: 2px;
   }
 
   .social-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0;
+    margin: 30px 0;
   }
 
   .links-container {
     display: flex;
     align-items: center;
+    gap: 10px;
     margin: 0 10px;
+    padding: 10px;
   }
 
   .links-container a {
-    /* color: rgb(0, 0, 0); */
     color: cyan;
-    font-size: 20px;
-    margin: 0 5px;
+    font-size: 25px;
+    margin-bottom: 5px;
   }
   #myBtn {
-    
-    bottom: 91px;
-    
+    width: 60px;
+    height: 70px;
   }
 
   .container-logo {
@@ -529,7 +473,9 @@ footer {
   .container-logo1 {
     display: flex;
     align-items: center;
-    margin: 4px 0;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
   }
 
   .container-logo1 img {
@@ -539,6 +485,43 @@ footer {
 
   .copyright {
     margin-bottom: 10px;
+  }
+  .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .content-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .image-section {
+    float: none;
+    width: 100%;
+  }
+  .image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .content-section .title {
+    text-align: center;
+    font-size: 19px;
+  }
+  .content-section .content .button {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .about-section {
+    min-height: 90vh;
+  }
+  .content-section .content .button a {
+    padding: 9px 30px;
   }
 }
 #timer{
