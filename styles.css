@@ -578,5 +578,6 @@ footer {
 }
 #message{
   position: relative;
+  padding: auto;
   font-size: 40px;
 }
