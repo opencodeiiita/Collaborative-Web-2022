@@ -524,3 +524,59 @@ footer {
     padding: 9px 30px;
   }
 }
+#timer{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color:rgb(15, 15, 15);
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#timer .circle{
+  margin-top: 40px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#timer .circle svg{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  transform: rotate(270deg);
+}
+#timer .circle svg circle{
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke-width: 8;
+  stroke: #282828;
+  transform: translate(5px,5px);
+}
+#timer .circle svg circle:nth-child(2){
+  stroke: var(--clr);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+#timer div{
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  
+}
+#timer div span{
+  position: absolute;
+  transform: translateX(-72%) translateY(45px);
+  font-size: 0.35em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+#message{
+  position: relative;
+  padding: auto;
+  font-size: 40px;
+}
