@@ -1,5 +1,4 @@
-// window.onbeforeunload = function () {
-// };
+
 const wrapper = document.getElementById("tiles");
 
 let columns = 0,

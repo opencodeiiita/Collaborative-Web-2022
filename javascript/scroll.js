@@ -14,6 +14,10 @@ function topFunction() {
   document.querySelectorAll(".tile").forEach((tile) => {
     tile.style.opacity = 1;
   });
+  setTimeout(() => {
+    document.body.style.height = "100vh";
+    document.body.style.overflow = "hidden";
+  }, 200);
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
