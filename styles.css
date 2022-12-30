@@ -577,7 +577,6 @@ footer {
   letter-spacing: 0.1em;
 }
 #message{
-  position: absolute;
-  top: 780px;
+  position: relative;
   font-size: 40px;
 }
