@@ -76,39 +76,58 @@ body.toggled > #tiles > .tile:hover {
   font-size: 50px;
 }
 
-.mentor {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-text-align: center;
+
+#mentors_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.row {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-flex-wrap: wrap;
-text-align: center;
+.mentor_card {
+  background: rgb(234 237 255);
+    margin: 7px 7px 45px;
+    padding: 15px;
+    line-height: 8px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    text-align: center;
+  
 }
 
-.mentor_info {
-background: white;
-margin: 7px;
-margin-bottom: 45px;
-padding: 25px;
-line-height: 8px;
+.mentor_card:hover {
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+h2.mentorName {
+  color: #000000;
+}
+
+.imgDiv{
+  height: 195px;
 border-radius: 20px;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-flex-wrap: wrap;
-text-align: center;
+  height: 233px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
-img.avatar {
-height: 195px;
-border-radius: 20px;
+.icon{
+  color: #3d3d3d;
+}
+
+.icon:hover{
+  transform: translateY(-5px);
+    color:#9370DB;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: space-around;
 }
 
 #tiles {
