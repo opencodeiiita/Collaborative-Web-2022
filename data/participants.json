@@ -240,6 +240,16 @@
     "referral": "Open Code"
   },
   {
+    "name": "Manish kumar Gupta",
+    "imageurl": "",
+    "about": "A noob programmer",
+    "college": "IIIT Allahabad",
+    "facebook": "",
+    "github": "https://github.com/manishh12",
+    "twitter": "",
+    "referral": "Open Code"
+  },
+  {
     "name": "Aman Kumar",
     "imageurl": "https://avatars.githubusercontent.com/u/96721448?s=400&v=4",
     "about": "Hello I'm a web developer",
@@ -296,6 +306,26 @@
     "college": "IIITA",
     "facebook": "",
     "github": "https://github.com/Karansenpai",
+    "twitter": "",
+    "referral": "Open code"
+  },
+  {
+    "name": "Koshal",
+    "imageurl": "https://avatars.githubusercontent.com/u/96467211?v=4",
+    "about": "Hello I'm a web developer",
+    "college": "IIIT Allahabad",
+    "facebook": "",
+    "github": "https://github.com/Koshal7",
+    "twitter": "https://twitter.com/KapilKhemani5",
+    "referral": "Open Code"
+  },
+  {
+    "name": "Sushant kumar",
+    "imageurl": "",
+    "about": "Hello I'm a coder and developer",
+    "college": "IIITA",
+    "facebook": "",
+    "github": "https://github.com/sushantk1274",
     "twitter": "",
     "referral": "Open code"
   }

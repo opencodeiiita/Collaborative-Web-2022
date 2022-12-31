@@ -18,7 +18,6 @@
   <body>
     <!-- Hero Section -->
     <div id="tiles"></div>
-
     <div id="title" class="upperHeroPage">
       <svg
         class="logo"
@@ -69,6 +68,47 @@
     <!-- Hero Section ends-->
 
     <!-- timer sections starts-->
+    <div class="lowerHeroPage">
+      <div id="timer">
+        <h2 id="message">HACKATHON ENDS IN</h2>
+        <div class="circle" style="--clr: #112996">
+          <div class="dots day_dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="dd"></circle>
+          </svg>
+          <div id="days">00<span id="d">DAYS</span></div>
+        </div>
+
+        <div class="circle" style="--clr: #1093b7">
+          <div class="dots hr_dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="hh"></circle>
+          </svg>
+          <div id="hours">00<span>HOURS</span></div>
+        </div>
+
+        <div class="circle" style="--clr: #f732dd">
+          <div class="dots min_dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="mm"></circle>
+          </svg>
+          <div id="minutes">00<span>MINUTES</span></div>
+        </div>
+
+        <div class="circle" style="--clr: #6e0877">
+          <div class="dots sec_dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="ss"></circle>
+          </svg>
+          <div id="seconds">00<span id="s">SECONDS</span></div>
+        </div>
+      </div>
+    </div>
+
     <!-- timer sections ends-->
 
     <!-- about section starts -->
@@ -83,6 +123,13 @@
           </div>
           <div class="content">
             <h3>Opencode Collaborative 2022</h3>
+            <p>
+              OpenCode is a month long open source program organised by
+              GeekHaven IIIT Allahabad. OpenCode attracts talent from all over
+              the world. People contribute to various open source projects. We
+              welcome everyone to experience the awesome event and win exciting
+              prizes .
+            </p>
             <p>
               OpenCode is a month long open source program organised by
               GeekHaven IIIT Allahabad. OpenCode attracts talent from all over
@@ -109,9 +156,12 @@
     <!-- mentor section ends-->
 
     <!-- Participant section starts-->
-    <div class="main-tittle" style="text-align: center">
-      <h3 class="text-cyan">Top Contributers</h3>
+    <div class="lowerHeroPage">
+      <div class="main-tittle" style="text-align: center">
+        <h3 class="text-cyan">Top Contributers</h3>
+      </div>
     </div>
+
     <div class="lowerHeroPage lbContainer">
       <div class="lbHeads">
         <ul class="ulHead">
@@ -132,16 +182,6 @@
       </div>
       <div class="leaderboard">
         <ul id="lbHeading">
-          <!-- <li>
-            <div class="leaderboardRank">1</div>
-            <div class="leaderboardUsername">
-              <div class="lbImage">
-                <img class="pfp" src="https://github.com/SanyamAgrawal07.png" />
-              </div>
-              <span>SanyamAgrawal07</span>
-            </div>
-            <div class="leaderboardPoints">1200</div>
-          </li> -->
         </ul>
       </div>
     </div>
@@ -154,6 +194,8 @@
     <!-- Scroll to top button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">
       <img
+        src="https://img.icons8.com/ios-filled/50/000000/long-arrow-up.png"
+        style="width: 70%; color: white"
         src="https://img.icons8.com/ios-filled/50/000000/long-arrow-up.png"
         style="width: 70%; color: white"
       />
@@ -193,9 +235,10 @@
 
     <!-- script files  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
-    <script src="./javascript/hero.js"></script>
-    <script type="text/javascript" src="./javascript/scroll.js"></script>
+    <script src="./javascript/timer.js"></script>
     <script src="./javascript/mentors.js"></script>
     <script src="./javascript/leaderBoard.js"></script>
+    <script src="./javascript/hero.js"></script>
+    <script src="./javascript/scroll.js"></script>
   </body>
 </html>

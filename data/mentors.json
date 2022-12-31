@@ -32,6 +32,14 @@
     "twitter": "https://twitter.com/mittal_shashwat"
   },
   {
+    "name": "Akshaj Kansal",
+    "imageurl": "https://avatars.githubusercontent.com/u/76688923?v=4",
+    "about": "Organiser",
+    "facebook": "https://www.facebook.com/AkshajKansal/",
+    "github": "https://github.com/aknsal",
+    "twitter": "https://twitter.com/AkshajKansal"
+  },
+  {
     "name": "Anurag Jain",
     "imageurl": "https://avatars.githubusercontent.com/u/76420937?v=4",
     "about": "Mentor",
@@ -190,5 +198,13 @@
     "facebook": "https://www.facebook.com/atharva.gadekar.94",
     "github": "https://github.com/atharva-gadekar",
     "twitter": "https://twitter.com/AtharvaGadekar6"
+  },
+   {
+    "name": "Aman Karnawat",
+    "imageurl": "https://avatars.githubusercontent.com/karnawataman",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/aman.karnawat.3",
+    "github": "https://github.com/karnawataman",
+    "twitter": "https://twitter.com/karnawataman03"
   }
 ]
