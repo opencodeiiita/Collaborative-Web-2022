@@ -431,6 +431,109 @@ h2.mentorName {
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Project-section */
+.card {
+  margin: 25px;
+  padding: 20px;
+  color: var(--dark);
+  max-width: 300px;
+  min-height: 180px;
+  border-radius: 5px;
+  width: 500px; 
+  display: inline-block;
+  vertical-align: top;
+  transition: all 0.25s;
+   background: linear-gradient(to bottom right,
+                rgb(148, 145, 145), rgb(255, 255, 255), rgb(148, 145, 145));
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.05); 
+}
+
+.card img {
+  width: 100%;
+  height:15rem;
+  
+  object-fit:cover;
+  
+}
+
+.headingg{
+  color:white;
+  font-size: 4rem;
+  margin-top:8rem;
+}
+.card h3 {
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+.card p {
+  height:7.4rem;
+  margin: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #666;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+}
+
+
+.card a {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.project_container {
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 25%; 
+}
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: 33.3333%; 
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 50%; 
+  }
+}
+
+
+
+
+/* Project-section */
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
 /* footer section */
 footer {
   /* display: none; */
