@@ -435,18 +435,17 @@ h2.mentorName {
 
 /* Project-section */
 .card {
-  margin: 25px;
+  margin: 10px;
   padding: 20px;
   color: var(--dark);
-  max-width: 300px;
+  max-width: 270px;
   min-height: 180px;
-  border-radius: 5px;
+  border-radius: 20px;
   width: 500px; 
   display: inline-block;
   vertical-align: top;
   transition: all 0.25s;
-   background: linear-gradient(to bottom right,
-                rgb(148, 145, 145), rgb(255, 255, 255), rgb(148, 145, 145));
+   background: white;
 }
 
 .card:hover {
@@ -469,7 +468,7 @@ h2.mentorName {
 }
 .card h3 {
   margin: 10px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
   color: #333;
@@ -478,14 +477,13 @@ h2.mentorName {
 }
 
 .card p {
-  height:7.4rem;
-  margin: 10px;
+  height:6rem;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
   color: #666;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  padding: 10px;
+  padding: 5px;
 }
 
 
