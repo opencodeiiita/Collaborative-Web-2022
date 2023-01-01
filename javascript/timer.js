@@ -24,10 +24,10 @@ let x=setInterval(function(){
     let m=Math.floor((distance%(1000*60*60))/(1000*60));
     let s=Math.floor((distance%(1000*60))/(1000));
 
-    days.innerHTML=d+"<span>DAYS</span>";
-    hours.innerHTML=h+"<span>HOURS</span>";
-    minutes.innerHTML=m+"<span>MINUTES</span>";
-    seconds.innerHTML=s+"<span>SECONDS</span>";
+    days.innerHTML=d+"<br><span>DAYS</span>";
+    hours.innerHTML=h+"<br><span>HOURS</span>";
+    minutes.innerHTML=m+"<br><span>MINUTES</span>";
+    seconds.innerHTML=s+"<br><span>SECONDS</span>";
 
     dd.style.strokeDashoffset=440-(440*d)/30;
     hh.style.strokeDashoffset=440-(440*h)/24;
