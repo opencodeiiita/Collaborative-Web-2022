@@ -8,6 +8,14 @@
     "twitter": "https://twitter.com/mMudit5"
   },
   {
+    "name": "Aditya Verma",
+    "imageurl": "https://avatars.githubusercontent.com/u/73935799?v=4",
+    "about": "Organiser",
+    "facebook": "https://www.facebook.com/aditya.verma1702/",
+    "github": "https://github.com/homewardgamer",
+    "twitter": "https://twitter.com/homewardgamer"
+  },
+  {
     "name": "Pankaj Kumar",
     "imageurl": "https://avatars.githubusercontent.com/u/76695979?v=4",
     "about": "Organiser",
@@ -30,6 +38,14 @@
     "facebook": "https://www.facebook.com/shashwat.mittal.5/",
     "github": "https://github.com/shashwat-mittal",
     "twitter": "https://twitter.com/mittal_shashwat"
+  },
+  {
+    "name": "Akshaj Kansal",
+    "imageurl": "https://avatars.githubusercontent.com/u/76688923?v=4",
+    "about": "Organiser",
+    "facebook": "https://www.facebook.com/AkshajKansal/",
+    "github": "https://github.com/aknsal",
+    "twitter": "https://twitter.com/AkshajKansal"
   },
   {
     "name": "Anurag Jain",
@@ -158,7 +174,7 @@
       "facebook": "https://www.facebook.com/profile.php?id=100075127504015",
       "github": "https://github.com/TheRealSibasishBehera",
       "twitter": "https://twitter.com/FangedHamster"
-    },
+  },
   {
     "name": "Aditya Kumar Rai",
     "imageurl": "https://avatars.githubusercontent.com/u/97426655?s=400&u=c7dda19b30a7734b99b392d10c6ff405cb7d0f3f&v=4",
@@ -182,5 +198,21 @@
     "facebook": "https://www.facebook.com/profile.php?id=100076844967750",
     "github": "https://github.com/Prakriti-19",
     "twitter": "https://twitter.com/Prakriti_193"
+  },
+   {
+    "name": "Atharva Gadekar",
+    "imageurl": "https://avatars.githubusercontent.com/atharva-gadekar",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/atharva.gadekar.94",
+    "github": "https://github.com/atharva-gadekar",
+    "twitter": "https://twitter.com/AtharvaGadekar6"
+  },
+   {
+    "name": "Aman Karnawat",
+    "imageurl": "https://avatars.githubusercontent.com/karnawataman",
+    "about": "Mentor",
+    "facebook": "https://www.facebook.com/aman.karnawat.3",
+    "github": "https://github.com/karnawataman",
+    "twitter": "https://twitter.com/karnawataman03"
   }
 ]
