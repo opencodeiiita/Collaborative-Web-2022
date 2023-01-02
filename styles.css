@@ -465,12 +465,14 @@ h2.mentorName {
   color:white;
   font-size: 4rem;
   margin-top:8rem;
+  cursor:default;
 }
 .card h3 {
   margin: 10px;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
+  cursor:default;
   color: #333;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  
@@ -480,6 +482,7 @@ h2.mentorName {
   height:6rem;
   font-size: 18px;
   line-height: 1.5;
+  cursor:default;
   text-align: center;
   color: #666;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -490,6 +493,7 @@ h2.mentorName {
 .card a {
   display: block;
   margin: 10px;
+  cursor:default;
   padding: 10px;
   background-color: #333;
   color: #fff;
