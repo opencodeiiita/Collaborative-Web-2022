@@ -723,8 +723,6 @@ footer {
 .lb-li:hover > .extraUserInfo {
   opacity: 1;
   left: 105%;
-  /* top: 100%; */
-  /* transform: translateY(540px); */
 }
 .lbButtons {
   position: absolute;
@@ -804,7 +802,6 @@ footer {
 }
 
 .lb-li {
-  
   margin-top: 4px;
   margin-bottom: 4px;
   height: 50px;
