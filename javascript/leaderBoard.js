@@ -153,6 +153,12 @@ function LBgoUp() {
     pgNum--;
     let lbList = document.querySelector("#lbHeading");
     lbList.style.transform = `translateY(${-540 * (pgNum - 1)}px)`;
+    let extraInfo = document.querySelectorAll(".extraUserInfo");
+    // console.log(extraInfo);
+    extraInfo.forEach((oneInfo) => {
+      oneInfo.style.transform = `translateY(${400 * (pgNum - 1)}px)`;
+      console.log(oneInfo);
+    });
   } else if (pgNum == 1) {
     let lbList = document.querySelector("#lbHeading");
     lbList.style.transform = `translateY(${270}px)`;
@@ -166,6 +172,15 @@ function LBgoDown() {
     pgNum++;
     let lbList = document.querySelector("#lbHeading");
     lbList.style.transform = `translateY(${-540 * (pgNum - 1)}px)`;
+    let extraInfo = document.querySelectorAll(".extraUserInfo");
+    // console.log(extraInfo);
+    extraInfo.forEach((oneInfo) => {
+      oneInfo.style.transform = `translateY(${400 * (pgNum - 1)}px)`;
+      console.log(oneInfo);
+    });
+
+    // extraInfo.style.top = `${100 * (pgNum - 1)}%`;
+    console.log(extraInfo);
   } else if (pgNum == 10) {
     let lbList = document.querySelector("#lbHeading");
     lbList.style.transform = `translateY(${-5400 + 540 - 270}px)`;
