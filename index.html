@@ -64,51 +64,55 @@
       <img class="geekHavenLogo" src="images/geekhavendark.png" />
       <!-- <div class="presentsText">Presents</div> -->
     </div>
+    <!-- <div class="lowerHeroPage first-page">hi</div> -->
     <!-- Hero Section ends-->
 
     <!-- timer sections starts-->
-    <div id="timer">
-      <h2 id="message">HACKATHON ENDS IN</h2>
-      <div class="circle" style="--clr: #112996;">
+    <div class="lowerHeroPage">
+      <div id="timer">
+        <h2 id="message">HACKATHON ENDS IN</h2>
+        <div class="circle" style="--clr: #112996">
           <div class="dots day_dot"></div>
           <svg>
             <circle cx="70" cy="70" r="70"></circle>
             <circle cx="70" cy="70" r="70" id="dd"></circle>
           </svg>
-          <div id ="days">00<span id="d">DAYS</span></div>
-      </div>
+          <div id="days">00<span id="d">DAYS</span></div>
+        </div>
 
-      <div class="circle" style="--clr: #1093b7;">
-        <div class="dots hr_dot"></div>
-        <svg>
-          <circle cx="70" cy="70" r="70"></circle>
-          <circle cx="70" cy="70" r="70" id="hh"></circle>
-        </svg>
-        <div id ="hours">00<span>HOURS</span></div>
-      </div>
+        <div class="circle" style="--clr: #1093b7">
+          <div class="dots hr_dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="hh"></circle>
+          </svg>
+          <div id="hours">00<span>HOURS</span></div>
+        </div>
 
-      <div class="circle" style="--clr: #f732dd;">
-        <div class="dots min_dot"></div>
-        <svg>
-          <circle cx="70" cy="70" r="70"></circle>
-          <circle cx="70" cy="70" r="70" id="mm"></circle>
-        </svg>
-        <div id ="minutes">00<span>MINUTES</span></div>
-      </div>
+        <div class="circle" style="--clr: #f732dd">
+          <div class="dots min_dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="mm"></circle>
+          </svg>
+          <div id="minutes">00<span>MINUTES</span></div>
+        </div>
 
-      <div class="circle" style="--clr: #6e0877;">
-        <div class="dots sec_dot"></div>
-        <svg>
-          <circle cx="70" cy="70" r="70"></circle>
-          <circle cx="70" cy="70" r="70" id="ss"></circle>
-        </svg>
-        <div id ="seconds">00<span id="s">SECONDS</span></div>
+        <div class="circle" style="--clr: #6e0877">
+          <div class="dots sec_dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="ss"></circle>
+          </svg>
+          <div id="seconds">00<span id="s">SECONDS</span></div>
+        </div>
       </div>
     </div>
+
     <!-- timer sections ends-->
 
     <!-- about section starts -->
-    <div class="about-section">
+    <div class="about-section lowerHeroPage first-page">
       <div class="container">
         <div class="image-section">
           <img src="images/aboutus.jpg" />
@@ -126,6 +130,13 @@
               welcome everyone to experience the awesome event and win exciting
               prizes .
             </p>
+            <p>
+              OpenCode is a month long open source program organised by
+              GeekHaven IIIT Allahabad. OpenCode attracts talent from all over
+              the world. People contribute to various open source projects. We
+              welcome everyone to experience the awesome event and win exciting
+              prizes .
+            </p>
             <div class="button">
               <a href="">Read More</a>
             </div>
@@ -136,16 +147,46 @@
     <!-- about section ends -->
 
     <!-- mentor section starts-->
-    <section id="mentors">
+    <section id="mentors" class="lowerHeroPage">
       <div class="main-tittle" style="text-align: center">
-        <h1>Mentors</h1>
+        <h1 class="text-cyan">Mentors</h1>
       </div>
       <div id="mentors_cards"></div>
     </section>
     <!-- mentor section ends-->
 
     <!-- Participant section starts-->
-    <!-- Participant section ends-->
+    <div class="lowerHeroPage">
+      <div class="main-tittle" style="text-align: center">
+        <h3 class="text-cyan">Top Contributers</h3>
+      </div>
+    </div>
+
+    <div class="lowerHeroPage lbContainer">
+      <div class="lbHeads">
+        <ul class="ulHead">
+          <li class="lb-li-heading">
+            <div class="leaderboardRank lbHeading">Rank</div>
+            <div class="lbHeading lbUsernameHeading">Username</div>
+            <div class="leaderboardPoints lbHeading">Points</div>
+          </li>
+        </ul>
+      </div>
+      <div class="lbButtons">
+        <button class="LBdownButton">
+          <img src="./images/leaderBoardDown.png" class="lbButton" />
+        </button>
+        <button class="LBupButton">
+          <img src="./images/leaderBoardUp.png" class="lbButton" />
+        </button>
+      </div>
+      <div class="leaderboard">
+        <!-- <div class="extraUserInfo">  </div> -->
+        <ul id="lbHeading"></ul>
+      </div>
+    </div>
+
+    <!-- top scorers section ends-->
 
     <!-- project section starts-->
     <!-- project section ends-->
@@ -155,42 +196,48 @@
       <img
         src="https://img.icons8.com/ios-filled/50/000000/long-arrow-up.png"
         style="width: 70%; color: white"
+        src="https://img.icons8.com/ios-filled/50/000000/long-arrow-up.png"
+        style="width: 70%; color: white"
       />
     </button>
 
     <!-- Footer starts-->
-    <footer>
-      <div class="container-logo1">
-        <img src="images/geekhavendark.png" alt="Logo 1" />
-        <img src="images/iita_logo.webp" alt="Logo 2" />
-        <img src="images/opencode.png" alt="Logo 3" />
-      </div>
-      <div class="container-logo">
-        <img src="images/geekhavendark.png" alt="Logo 1" />
-        <img src="images/iita_logo.webp" alt="Logo 2" />
-      </div>
-      <div class="social-container">
-        <div class="links-container">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
+    <div class="lowerHeroPage">
+      <footer>
+        <div class="container-logo1">
+          <img src="images/geekhavendark.png" alt="Logo 1" />
+          <img src="images/iita_logo.webp" alt="Logo 2" />
+          <img src="images/opencode.png" alt="Logo 3" />
         </div>
-        <div class="copyright">
-          <!-- <div class="text1"> -->
-          &copy; Copyright<strong> OC</strong>. All Rights Reserved
-          <!-- </div> -->
+        <div class="container-logo">
+          <img src="images/geekhavendark.png" alt="Logo 1" />
+          <img src="images/iita_logo.webp" alt="Logo 2" />
         </div>
-      </div>
-      <div class="container-logo">
-        <img src="images/opencode.png" alt="Logo 3" />
-      </div>
-    </footer>
+        <div class="social-container">
+          <div class="links-container">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <div class="copyright">
+            <div class="text1">
+              &copy; Copyright <strong>OC</strong>. All Rights Reserved
+            </div>
+          </div>
+        </div>
+        <div class="container-logo">
+          <img src="images/opencode.png" alt="Logo 3" />
+        </div>
+      </footer>
+    </div>
+
     <!-- Footer ends-->
-    
+
     <!-- script files  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
     <script src="./javascript/timer.js"></script>
     <script src="./javascript/mentors.js"></script>
+    <script src="./javascript/leaderBoard.js"></script>
     <script src="./javascript/hero.js"></script>
     <script src="./javascript/scroll.js"></script>
   </body>

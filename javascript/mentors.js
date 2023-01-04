@@ -9,11 +9,10 @@ fetch("./data/mentors.json")
     console.log("error: " + err);
   });
 function appendData(data) {
-
-var mainContainer = document.getElementById("mentors_cards");
-for (var i = 0; i < data.length; i++) {
-  let element = document.createElement("div");
-  element.className = "mentor_card";
+  var mainContainer = document.getElementById("mentors_cards");
+  for (var i = 0; i < data.length; i++) {
+    let element = document.createElement("div");
+    element.className = "mentor_card background-dark";
 
     const imgDiv = document.createElement("div");
     imgDiv.className = "imgDiv";
@@ -21,7 +20,6 @@ for (var i = 0; i < data.length; i++) {
     image.src = `${data[i].imageurl}`;
     image.className = "mentorImage";
 
-  
     const name = document.createElement("h2");
     name.innerHTML = `${data[i].name}`;
     name.className = "mentorName";
@@ -32,19 +30,19 @@ for (var i = 0; i < data.length; i++) {
     fb.target = "_blank";
     fb.href = `${data[i].facebook}`;
     fb.innerHTML = '<i class="fab fa-facebook fa-2x fa-solid "></i>';
-    fb.className = "icon";
+    fb.className = "icon fill-cyan";
 
     const github = document.createElement("a");
     github.href = `${data[i].github}`;
     github.target = "_blank";
     github.innerHTML = '<i class="fab fa-github fa-2x fa-solid"></i>';
-    github.className = "icon";
+    github.className = "icon fill-cyan";
 
     const twitter = document.createElement("a");
     twitter.href = `${data[i].twitter}`;
     twitter.target = "_blank";
     twitter.innerHTML = '<i class="fab fa-twitter fa-2x fa-solid"></i>';
-    twitter.className = "icon";
+    twitter.className = "icon fill-cyan";
 
     imgDiv.appendChild(image);
     logoDiv.appendChild(fb);
