@@ -1,6 +1,4 @@
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-};
+
 const wrapper = document.getElementById("tiles");
 
 let columns = 0,
@@ -18,6 +16,10 @@ const toggle = () => {
 
 const handleOnClick = (index) => {
   if (!document.body.classList.contains("toggled")) {
+    lowerPages = document.querySelectorAll(".lowerHeroPage");
+    lowerPages.forEach((lowerPage) => {
+      lowerPage.style.display = "block";
+    });
     toggle();
     anime({
       targets: ".tile",
