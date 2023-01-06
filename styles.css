@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300;400;500&display=swap');
+
 /* Scroll to top button */
 html {
   scroll-behavior: smooth;
+  font-family: 'Exo 2', sans-serif;
+}
+/* Importing fonts  */
+
+@font-face {
+  font-family: vampireFont;
+  src: url(fonts/Vampire\ Wars.ttf);
 }
 #myBtn {
   display: none;
@@ -103,6 +112,8 @@ body.toggled > .lowerHeroPage {
 
 h2.mentorName {
   color: cyan;
+  font-family: 'Audiowide', cursive;
+  font-weight: 300;
 }
 
 .imgDiv {
@@ -223,6 +234,10 @@ h2.mentorName {
   /* border-radius: 16px; */
   /* border: 2px solid cyan; */
 }
+.lowerHeroPage h3{
+  font-family: "vampireFont";
+  letter-spacing: 3px;
+}
 
 .heroPageTitle {
   font-weight: 700;
@@ -328,17 +343,18 @@ h2.mentorName {
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* timer section */
-#timer {
+#timer{
   display: flex;
   justify-content: center;
   gap: 30px;
-  background-color: rgb(15, 15, 15);
+  background-color:rgb(15, 15, 15);
   color: rgb(255, 255, 255);
   padding: 40px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: 'Audiowide', cursive;
 }
 
-#timer .circle {
+#timer .circle{
   margin-top: 40px;
   position: relative;
   width: 150px;
@@ -347,38 +363,38 @@ h2.mentorName {
   justify-content: center;
   align-items: center;
 }
-#timer .circle svg {
+#timer .circle svg{
   position: relative;
   width: 150px;
   height: 150px;
   transform: rotate(270deg);
 }
-#timer .circle svg circle {
+#timer .circle svg circle{
   width: 100%;
   height: 100%;
   fill: transparent;
   stroke-width: 8;
   stroke: #282828;
-  transform: translate(5px, 5px);
+  transform: translate(5px,5px);
 }
-#timer .circle svg circle:nth-child(2) {
+#timer .circle svg circle:nth-child(2){
   stroke: var(--clr);
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
 }
-#timer div {
+#timer div{
   position: absolute;
   text-align: center;
   font-size: 40px;
 }
-#timer div span {
+#timer div span{
   position: absolute;
   transform: translateX(-72%) translateY(45px);
   font-size: 0.35em;
   font-weight: 300;
   letter-spacing: 0.1em;
 }
-#message {
+#message{
   position: relative;
   padding: auto;
   font-size: 40px;
@@ -411,25 +427,35 @@ h2.mentorName {
   height: auto;
 }
 .content-section .title {
-  text-transform: uppercase;
+  font-family: "vampireFont";
+  letter-spacing: 4px;
+  /* text-transform: uppercase; */
   font-size: 28px;
+  padding-left: 8px;
+  border-bottom: 2px solid black;
 }
 .content-section .content h3 {
-  margin-top: 20px;
-  color: #5d5d5d;
-  font-size: 21px;
+  font-family: 'Audiowide', cursive;
+  margin-top: 25px;
+  color: #393737;
+  font-size: 2.2rem;
 }
 .content-section .content p {
   margin-top: 10px;
-  font-family: "Poppins";
-  font-size: 18px;
+  /* font-family: "Poppins"; */
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
   line-height: 1.5;
+  font-weight: 300;
 }
 .content-section .content .button {
   margin-top: 30px;
 }
 .content-section .content .button a {
-  background-color: #3d3d3d;
+  font-family: 'Exo 2', sans-serif;
+    background-color: #3d3d3d;
   padding: 8px 24px;
   text-decoration: none;
   color: #fff;
@@ -448,6 +474,10 @@ h2.mentorName {
   color: white;
   height: 150px;
   font-size: 50px;
+}
+.main-tittle h1{
+  font-family: "vampireFont";
+  letter-spacing: 4px;
 }
 
 @media screen and (max-width: 768px) {
@@ -522,6 +552,8 @@ h2.mentorName {
 }
 
 .headingg{
+  font-family: "vampireFont";
+  letter-spacing: 4px;
   color:white;
   font-size: 4rem;
   margin-top:8rem;
@@ -530,11 +562,11 @@ h2.mentorName {
 .card h3 {
   margin: 10px;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
   cursor:default;
   color: #333;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "audiowide", cursive;
  
 }
 
@@ -545,7 +577,7 @@ h2.mentorName {
   cursor:default;
   text-align: center;
   color: #666;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
   padding: 5px;
 }
 
@@ -561,7 +593,7 @@ h2.mentorName {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 
 .project_container {
@@ -660,6 +692,8 @@ footer {
   margin-top: 20px;
   align-items: center;
   justify-content: center;
+  /* font-family: 'Exo 2', sans-serif; */
+  font-family: 'Audiowide', cursive;
 }
 .text1 {
   margin-top: 15px;
@@ -899,11 +933,13 @@ footer {
   display: inline-block;
 }
 .leaderboardUsername {
+  font-family: 'Exo 2', sans-serif;
   text-align: left;
   width: 56%;
   display: inline-block;
 }
 .leaderboardPoints {
+  font-family: 'Exo 2', sans-serif;
   text-align: center;
   display: inline-block;
   width: 20%;
@@ -946,13 +982,16 @@ footer {
   display: inline-block;
   height: 50px;
 }
+
 .lbHeading {
   font-size: 20px;
   font-weight: 600;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  font-family: 'Audiowide', cursive;
 }
+
 .lbUsernameHeading {
   padding-right: 15%;
   text-align: center;
