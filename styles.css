@@ -384,6 +384,26 @@ h2.mentorName {
   font-size: 40px;
 }
 
+
+@media screen and (max-width: 768px) {
+  #timer {
+   flex-wrap:wrap;
+    transform: scale(0.9);
+width:100%;
+background-color:  linear-gradient(to right, var(--g1), var(--g2), var(--g1));
+padding: 18px;
+
+
+  }
+  #message {
+    position: relative;
+    padding: auto;
+    text-align: center;
+    font-size: 34px;
+  }
+  
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* About section */
 .about-section {
@@ -453,17 +473,6 @@ h2.mentorName {
   background-color: #575151;
   color: #fff;
 }
-
-
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/* Mentor Section */
-.main-tittle {
-  text-align: center;
-  color: white;
-  height: 150px;
-  font-size: 50px;
-}
-
 @media screen and (max-width: 768px) {
   .container {
     width: 80%;
@@ -501,7 +510,33 @@ h2.mentorName {
   .content-section .content .button a {
     padding: 9px 30px;
   }
+ 
 }
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Mentor Section */
+.main-tittle {
+  text-align: center;
+  color: white;
+  height: 150px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  
+    .main-tittle{
+      font-size: 35px;
+      margin-top: 78px;
+    }
+    #mentors{
+     margin: auto;
+    }
+    #mentors_cards{
+      margin-top: -45px;
+
+    }
+  }
 
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -536,7 +571,7 @@ h2.mentorName {
 }
 
 .headingg{
-  color:white;
+  color:cyan;
   font-size: 4rem;
   margin-top:8rem;
   cursor:default;
@@ -597,8 +632,19 @@ h2.mentorName {
 
 @media (max-width: 768px) {
   .card {
-    width: 50%; 
+    width: 90%; 
   }
+  .headingg{
+    font-size:50px;
+  }
+  .card h3{
+    font-size: 26px;
+  }
+.card p{
+  font-size:20px;
+  line-height: 1.2;
+}
+
 }
 
 
@@ -683,6 +729,7 @@ footer {
   footer {
     flex-direction: column;
     height: auto;
+    width: 20rem;
   }
 
   .social-container {
@@ -769,6 +816,10 @@ footer {
   }
 }
 
+
+
+
+
 /* Leaderboard css */
 .topContributers {
   text-align: center;
@@ -815,11 +866,7 @@ footer {
   padding-bottom: 32px;
   /* transform: translateY(540px); */
 }
-@media screen and (max-width: 840px) {
-  .extraUserInfo {
-    display: none;
-  }
-}
+
 .extraInfoLi {
   color: var(--g2);
   font-weight: 500;
@@ -996,4 +1043,41 @@ footer {
 }
 .customLB {
   color: var(--g2);
+}
+
+@media screen and (max-width: 768px) {
+  .extraUserInfo {
+    display: none;
+  }
+  .lbContainer{
+    width:99%;
+    margin-left: -9px;
+    margin-top: -63px;
+   
+    
+  }
+  .main-tittle{
+    text-align: center;
+  }
+  .lb-li:hover  {
+    opacity: 1;
+    
+  }
+  .lb-li:hover {
+    background-color: var(--g1);
+    scale: 100%;
+    transition: none;
+  }
+  .lbImage{
+    display: none;
+  }
+ .LBupButton{
+  margin-right: -40px;
+ }
+ .LBdownButton{
+  margin-right: -20px;
+ }
+ .middle{
+  width: 100%;
+ }
 }
