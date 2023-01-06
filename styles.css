@@ -185,7 +185,7 @@ h2.mentorName {
 } */
 .first-page {
   /* background-color: grey; */
-  height: 100vh !important;
+  height: 100vh ;
   width: 100vw;
   position: absolute;
   left: 0;
@@ -424,10 +424,8 @@ padding: 18px;
 /* About section */
 .about-section {
   display: flex;
-
-  flex-direction: row;
+flex-direction: row;
   width: 100%;
-  
   min-height: 80vh;
   background-color: rgb(255, 255, 255);
 }
@@ -500,20 +498,6 @@ padding: 18px;
   color: #fff;
 }
 
-
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/* Mentor Section */
-.main-tittle {
-  text-align: center;
-  color: white;
-  height: 150px;
-  font-size: 50px;
-}
-.main-tittle h1{
-  font-family: "vampireFont";
-  letter-spacing: 4px;
-}
-
 @media screen and (max-width: 768px) {
   .container {
     width: 80%;
@@ -544,15 +528,31 @@ padding: 18px;
   }
   .content-section .content .button {
     text-align: center;
+    margin-bottom: 20px;
   }
   .about-section {
-    min-height: 90vh;
+    min-height: 127vh !important;
   }
   .content-section .content .button a {
     padding: 9px 30px;
   }
  
 }
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Mentor Section */
+.main-tittle {
+  text-align: center;
+  color: white;
+  height: 150px;
+  font-size: 50px;
+}
+.main-tittle h1{
+  font-family: "vampireFont";
+  letter-spacing: 4px;
+}
+
+
 
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -862,6 +862,9 @@ footer {
   .content-section .content .button a {
     padding: 9px 30px;
   }
+  .text1{
+    font-size: 15px;
+  }
 }
 
 
@@ -1104,8 +1107,8 @@ footer {
   }
   .lbContainer{
     width:99%;
-    margin-left: -9px;
-    margin-top: -63px;
+    margin-left: 3px;
+    margin-top: -21px;
    
     
   }
