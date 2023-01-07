@@ -337,9 +337,21 @@ h2.mentorName {
   .text {
     left: 50%;
     transform: translateX(-50%);
-    bottom: 32px;
+    bottom: 55px;
   }
 }
+@media screen and (max-device-width: 768px) {
+  #timer {
+   flex-wrap:nowrap;
+    /* transform: scale(0.9); */
+   padding:0;
+    width:100% ;
+    bottom:55px;
+   
+  }
+}
+
+/* background-color:  linear-gradient(to right, var(--g1), var(--g2), var(--g1)); 
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* timer section */
