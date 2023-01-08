@@ -185,7 +185,7 @@ h2.mentorName {
 } */
 .first-page {
   /* background-color: grey; */
-  height: 100vh !important;
+  height: 100vh ;
   width: 100vw;
   position: absolute;
   left: 0;
@@ -295,13 +295,13 @@ h2.mentorName {
   top: 42%;
 }
 
-@media (max-width: 500px) {
+@media (max-device-width: 500px) {
   .text {
     width: 80%;
     min-width: none;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-device-width: 640px) {
   .logo {
     min-width: 300px;
     width: 90%;
@@ -310,7 +310,7 @@ h2.mentorName {
     transform: translate(-50%, 0);
   }
   .lowerHeroPage {
-    width: 90%;
+    width: 100%;
   }
   .heroPageList {
     padding-left: 30px;
@@ -319,7 +319,7 @@ h2.mentorName {
     font-size: 1.3rem;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-device-width: 1300px) {
   .presentsText {
     display: none;
   }
@@ -406,32 +406,69 @@ h2.mentorName {
   font-size: 40px;
 }
 
+
+@media screen and (max-device-width: 768px) {
+  #timer {
+   flex-wrap:nowrap;
+    /* transform: scale(0.9); */
+   padding:0;
+    width:100% ;
+    padding-bottom: 50px;
+   
+   
+
+/* background-color:  linear-gradient(to right, var(--g1), var(--g2), var(--g1)); */
+
+
+
+  }
+  #message {
+    position: absolute;
+    padding: auto;
+    /* margin-top:40px; */
+    text-align: center;
+    font-size: 34px;
+    
+  }
+  #timer .circle{
+    margin-top: 106px;
+    
+  }
+  
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* About section */
 .about-section {
-  width: 100%;
+  display: flex;
+flex-direction: row;
+  width: 100% !important;
   min-height: 80vh;
   background-color: rgb(255, 255, 255);
 }
 
 .container {
   width: 80%;
-  display: block;
+  display: flex;
   margin: auto;
-  padding-top: 100px;
+  padding:0;
+  justify-content: space-between;
 }
-.content-section {
-  float: left;
-  width: 55%;
-}
+
 .image-section {
-  float: right;
-  width: 40%;
+  width:45%;
 }
+
 .image-section img {
   width: 100%;
   height: auto;
 }
+
+.content-section {
+  width: 50%;
+ 
+}
+
 .content-section .title {
   font-family: "vampireFont";
   letter-spacing: 4px;
@@ -440,12 +477,14 @@ h2.mentorName {
   padding-left: 8px;
   border-bottom: 2px solid black;
 }
+
 .content-section .content h3 {
   font-family: 'Audiowide', cursive;
   margin-top: 25px;
   color: #393737;
   font-size: 2.2rem;
 }
+
 .content-section .content p {
   margin-top: 10px;
   /* font-family: "Poppins"; */
@@ -456,9 +495,11 @@ h2.mentorName {
   line-height: 1.5;
   font-weight: 300;
 }
+
 .content-section .content .button {
   margin-top: 30px;
 }
+
 .content-section .content .button a {
   font-family: 'Exo 2', sans-serif;
     background-color: #3d3d3d;
@@ -468,25 +509,13 @@ h2.mentorName {
   font-size: 25px;
   letter-spacing: 1.5px;
 }
+
 .content-section .content .button a:hover {
   background-color: #575151;
   color: #fff;
 }
 
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/* Mentor Section */
-.main-tittle {
-  text-align: center;
-  color: white;
-  height: 150px;
-  font-size: 50px;
-}
-.main-tittle h1{
-  font-family: "vampireFont";
-  letter-spacing: 4px;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
   .container {
     width: 80%;
     display: block;
@@ -516,14 +545,57 @@ h2.mentorName {
   }
   .content-section .content .button {
     text-align: center;
+    margin-bottom: 20px;
   }
   .about-section {
-    min-height: 90vh;
+    min-height: 80vh !important;
+    /* width:100% !important; */
   }
   .content-section .content .button a {
     padding: 9px 30px;
   }
+ 
 }
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Mentor Section */
+.main-tittle {
+  text-align: center;
+  color: white;
+  height: 150px;
+  font-size: 50px;
+}
+.main-tittle h1{
+  font-family: "vampireFont";
+  letter-spacing: 4px;
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Mentor Section */
+.main-tittle {
+  text-align: center;
+  color: white;
+  height: 150px;
+  font-size: 50px;
+}
+
+@media screen and (max-device-width: 768px) {
+  
+    .main-tittle{
+      font-size: 35px;
+      margin-top: 78px;
+    }
+    #mentors{
+     margin: auto;
+    }
+    #mentors_cards{
+      margin-top: -45px;
+
+    }
+  }
 
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -558,15 +630,19 @@ h2.mentorName {
 }
 
 .headingg{
+
+
   font-family: "vampireFont";
   letter-spacing: 4px;
   color:white;
+
   font-size: 4rem;
   margin-top:8rem;
   cursor:default;
 }
 .card h3 {
   margin: 10px;
+  height:5rem;
   font-size: 22px;
   font-weight: 500;
   text-align: center;
@@ -577,7 +653,8 @@ h2.mentorName {
 }
 
 .card p {
-  height:6rem;
+  height:6.9rem;
+  margin-top:8px;
   font-size: 18px;
   line-height: 1.5;
   cursor:default;
@@ -590,7 +667,7 @@ h2.mentorName {
 
 .card a {
   display: block;
-  margin: 10px;
+  margin-top:23px;
   cursor:default;
   padding: 10px;
   background-color: #333;
@@ -607,22 +684,35 @@ h2.mentorName {
   padding: 20px;
 }
 
-@media (max-width: 1200px) {
+@media (max-device-width: 1200px) {
   .card {
     width: 25%; 
 }
 }
 
-@media (max-width: 992px) {
+@media (max-device-width: 992px) {
   .card {
     width: 33.3333%; 
   }
 }
 
-@media (max-width: 768px) {
-  .card {
-    width: 50%; 
+@media (max-device-width: 768px) {
+  .card{
+    margin:25px;
   }
+  .headingg{
+    font-size:50px;
+  }
+  .card h3{
+    font-size: 26px;
+    height:5rem;
+  }
+.card p{
+  font-size:20px;
+  line-height: 1.2;
+  height:8rem;
+}
+
 }
 
 
@@ -705,10 +795,11 @@ footer {
   margin-top: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
   footer {
     flex-direction: column;
     height: auto;
+    /* width: 20rem; */
   }
 
   .social-container {
@@ -789,9 +880,13 @@ footer {
   }
   .about-section {
     min-height: 90vh;
+    
   }
   .content-section .content .button a {
     padding: 9px 30px;
+  }
+  .text1{
+    font-size: 15px;
   }
 }
 
@@ -842,11 +937,7 @@ footer {
   padding-bottom: 32px;
   /* transform: translateY(540px); */
 }
-@media screen and (max-width: 840px) {
-  .extraUserInfo {
-    display: none;
-  }
-}
+
 .extraInfoLi {
   color: var(--g2);
   font-weight: 500;
@@ -1028,5 +1119,74 @@ footer {
 }
 .customLB {
   color: var(--g2);
+}
+
+
+@media screen and (max-device-width: 768px) {
+  .lbButtons {
+  position: absolute;
+  left: 0px;
+  width:100% ;
+  bottom: 0px;
+  scale:calc(0.95);
+height: 60px;
+  background-color: rgb(30, 30, 30);
+  z-index: 5;
+}
+.lbHeads {
+  position: relative;
+  width:100%;
+  left:0;
+  scale:calc(0.95);
+  background: linear-gradient(to bottom, rgb(30, 30, 30), #181c26);
+  color: white;
+  margin-bottom: -23px;
+  margin-top: -16px;
+  z-index: 5;
+}
+.leaderboard {
+  position: relative;
+ left:0;
+ scale:calc(0.95);
+ width:100%;
+  height: 622px;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  margin-top: -37px;
+}
+  .extraUserInfo {
+    display: none;
+  }
+  .lbContainer{
+    
+    /* margin-left: 26px;
+    margin-top: -21px; */
+   
+    
+  }
+  .main-tittle{
+    text-align: center;
+  }
+  .lb-li:hover  {
+    opacity: 1;
+    
+  }
+  .lb-li:hover {
+    background-color: var(--g1);
+    scale: 100%;
+    transition: none;
+  }
+  .lbImage{
+    display: none;
+  }
+ .LBupButton{
+  margin-right: -40px;
+ }
+ .LBdownButton{
+  margin-right: -20px;
+ }
+ .middle{
+  width: 100%;
+ }
 }
 
