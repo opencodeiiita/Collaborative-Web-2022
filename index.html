@@ -2,11 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="OpenCode is a 30-day long open-source festival that aggregates various open-source sessions on top of the exciting projects being built by the participants. Hosted on Github by IIITA students, Opencode organizers will be maintaining and mentoring numerous repositories with projects from a wide range of fields. Join us and discover the endless possibilities of code!">
-    <meta name="keywords" content="coding, programming, open source, collaborative, learning, opencode, development, developer, software, project, community, IIITA, Google Summer of Code, GSoc">
-    <meta name="author" content="OpenCode Team">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
+    <meta
+      name="description"
+      content="OpenCode is a 30-day long open-source festival that aggregates various open-source sessions on top of the exciting projects being built by the participants. Hosted on Github by IIITA students, Opencode organizers will be maintaining and mentoring numerous repositories with projects from a wide range of fields. Join us and discover the endless possibilities of code!"
+    />
+    <meta
+      name="keywords"
+      content="coding, programming, open source, collaborative, learning, opencode, development, developer, software, project, community, IIITA, Google Summer of Code, GSoc"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="author" content="OpenCode Team" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
     <title>OpenCode</title>
     <link
       rel="stylesheet"
@@ -71,7 +98,44 @@
     </div>
     <!-- <div class="lowerHeroPage first-page">hi</div> -->
     <!-- Hero Section ends-->
+    <!-- Navbar Section Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">OPENCODE</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- Navbar Section End Section -->
     <!-- timer sections starts-->
 
     <div id="timer">
@@ -82,7 +146,7 @@
           <circle cx="70" cy="70" r="70"></circle>
           <circle cx="70" cy="70" r="70" id="dd"></circle>
         </svg>
-        <div id="days">00 <br><span>DAYS</span></div>
+        <div id="days">00 <br /><span>DAYS</span></div>
       </div>
 
       <div class="circle" style="--clr: #1093b7">
@@ -91,7 +155,7 @@
           <circle cx="70" cy="70" r="70"></circle>
           <circle cx="70" cy="70" r="70" id="hh"></circle>
         </svg>
-        <div id="hours">00 <br><span>HOURS</span></div>
+        <div id="hours">00 <br /><span>HOURS</span></div>
       </div>
 
       <div class="circle" style="--clr: #f732dd">
@@ -100,7 +164,7 @@
           <circle cx="70" cy="70" r="70"></circle>
           <circle cx="70" cy="70" r="70" id="mm"></circle>
         </svg>
-        <div id="minutes">00 <br><span>MINUTES</span></div>
+        <div id="minutes">00 <br /><span>MINUTES</span></div>
       </div>
 
       <div class="circle" style="--clr: #6e0877">
@@ -109,15 +173,14 @@
           <circle cx="70" cy="70" r="70"></circle>
           <circle cx="70" cy="70" r="70" id="ss"></circle>
         </svg>
-        <div id="seconds">00 <br><span id="s">SECONDS</span></div>
-
+        <div id="seconds">00 <br /><span id="s">SECONDS</span></div>
       </div>
     </div>
 
     <!-- timer sections ends-->
 
     <!-- about section starts -->
-    <div class="about-section ">
+    <div class="about-section">
       <div class="container">
         <div class="image-section">
           <img src="images/aboutus.jpg" />
@@ -135,7 +198,7 @@
               welcome everyone to experience the awesome event and win exciting
               prizes .
             </p>
-            
+
             <div class="button">
               <a href="">Read More</a>
             </div>
@@ -155,7 +218,7 @@
     <!-- mentor section ends-->
 
     <!-- Participant section starts-->
-    
+
     <div class="lowerHeroPage middle">
       <div class="main-tittle" style="text-align: center">
         <h3 class="text-cyan">Top Contributors</h3>
@@ -188,16 +251,12 @@
 
     <!-- top scorers section ends-->
 
-
-
     <!-- project section starts-->
     <div class="project_container">
       <h1 class="headingg">Projects</h1>
       <div id="projects"></div>
     </div>
     <!-- project section ends-->
-
-
 
     <!-- Scroll to top button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">
